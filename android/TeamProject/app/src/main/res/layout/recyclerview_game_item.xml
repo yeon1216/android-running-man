@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="4dp"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/game_admin_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="방번호 : 123"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/game_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="즐거운 게임 여기로 오세요 ~~"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

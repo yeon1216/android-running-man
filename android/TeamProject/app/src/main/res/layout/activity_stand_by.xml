@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.StandByActivity">
+
+    <TextView
+        android:id="@+id/game_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="즐거운 게임"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/user0_clothes_iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/user0_id_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="id : 121212"/>
+
+            <TextView
+                android:id="@+id/user0_ready_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#11aaff"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:text="준비해주세요!"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/user1_clothes_iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/user1_id_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="id : 121212"/>
+
+            <TextView
+                android:id="@+id/user1_ready_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#11aaff"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:text="준비해주세요!"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/user2_clothes_iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/user2_id_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="id : 121212"/>
+
+            <TextView
+                android:id="@+id/user2_ready_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#11aaff"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:text="준비해주세요!"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/user3_clothes_iv"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/user3_id_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:text="id : 121212"/>
+
+            <TextView
+                android:id="@+id/user3_ready_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#11aaff"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                android:text="준비해주세요!"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp">
+        <Button
+            android:id="@+id/ready_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="준비"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timer_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="게임이 곧 시작됩니다.."/>
+        <TextView
+            android:id="@+id/timer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#aa0000"
+            android:text="10초"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>
